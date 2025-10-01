@@ -61,19 +61,19 @@ Original Repository: https://github.com/btolooshams/dunl-compneuro
 
 **1) Build design matrices**  
 ```bash
-python build_design_matrices_glm_<variant>.py
+python glm\build_design_matrices_glm_<variant>.py
 ```
 **2) Fit GLM**  
 ```bash
-python fit_glm.py
+python glm\fit_glm.py
 ```
 **3) Analyze the fit**  
 Choose either:
 ```bash
-python analyse_glm_fit.py
+python glm\analyse_glm_fit.py
 ```
 or open the exploratory notebook:
 ```bash
-jupyter notebook analyse_glm.ipynb
+jupyter glm\notebook analyse_glm.ipynb
 ```
 
